@@ -1,0 +1,29 @@
+---
+documentclass: article
+site: bookdown::bookdown_site
+output: 
+  bookdown::word_document2:
+    toc: false
+    reference_docx: letter_template2.docx
+---
+
+::: {custom-style="lh_body"}
+September 26, 2022
+
+Dear Awards Committee:
+
+After careful consideration, I think Zebras are deserving of all the awards.
+
+Sincerely,
+:::
+
+![](signature_mike.png)
+
+::: {custom-style="lh_signature"}
+Michael L. Mack \
+Associate Professor \
+Department of Psychology \
+University of Toronto \
+michael.mack\@utoronto.ca
+:::
+
